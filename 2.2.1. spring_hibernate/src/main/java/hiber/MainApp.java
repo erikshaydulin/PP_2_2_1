@@ -36,6 +36,9 @@ public class MainApp {
          System.out.println();
       }
 
+      System.out.println(userService.getUserWithThisCar("ford focus", 2));
+      System.out.println(userService.getUserWithThisCar("vaz", 2112));
+
       context.close();
    }
 }
